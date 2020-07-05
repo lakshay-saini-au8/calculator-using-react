@@ -16,6 +16,7 @@ class Calc extends Component {
       this.setState((preState) => {
         return {
           input: "",
+          // eslint-disable-next-line
           result: eval(
             `${preState.result}${
               preState.input[preState.input.length - 1] === undefined
@@ -50,6 +51,7 @@ class Calc extends Component {
         } else {
           return {
             input: this.state.input + preState.current + value,
+            // eslint-disable-next-line
             result: eval(
               `${preState.result}${preState.input[preState.input.length - 1]}${
                 preState.current
