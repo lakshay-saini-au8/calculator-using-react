@@ -1,0 +1,21 @@
+.CalcButton__text p {
+  cursor: pointer;
+  background: #76fdc5;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  font-weight: bold;
+  color: #03663c;
+  margin: 0;
+  margin: 0.7rem;
+  box-shadow: -2px -2px 3px 0px #ffffffc9,
+    3px 3px 5px 0px rgba(0.2, 0.2, 0.2, 0.5);
+}
+
+.CalcButton__text p:active {
+  color: #76fdc5;
+  background: #03663c;
+}
