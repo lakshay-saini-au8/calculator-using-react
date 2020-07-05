@@ -3,6 +3,6 @@ In this I made calculator using react doing this small project I am able to impl
 
 ### Working of website is like this
 
-For live demo:-[ Click here](https://price-comp-react.netlify.app/)
+For live demo:-[ Click here](https://calculator-react-ls.netlify.app/)
 
 ![finaloutput](https://github.com/lakshay-saini-au8/calculator-using-react/blob/master/final.gif)
